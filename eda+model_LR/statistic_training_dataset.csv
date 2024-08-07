@@ -1,0 +1,13 @@
+DATASET,ENCODER,IMPUTER,NORMALIZER
+training1.csv,LabelEncoder,simpleimputer,none
+training2.csv,LabelEncoder,simpleimputer,normalizer
+training3.csv,LabelEncoder,simpleimputer,minmaxscaler
+training4.csv,LabelEncoder,knnimputer,none
+training5.csv,LabelEncoder,knnimputer,normalizer
+training6.csv,LabelEncoder,knnimputer,minmaxscaler
+training7.csv,OnehotEncoder,simpleimputer,none
+training8.csv,OnehotEncoder,simpleimputer,normalizer
+training9.csv,OnehotEncoder,simpleimputer,minmaxscaler
+training10.csv,OnehotEncoder,knnimputer,none
+training11.csv,OnehotEncoder,knnimputer,normalizer
+training12.csv,OnehotEncoder,knnimputer,minmaxscaler
